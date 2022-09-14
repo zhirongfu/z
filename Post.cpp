@@ -49,6 +49,5 @@ void Post::displayPost()
 {
     std::cout << post_title << " posted at "; //print title posted at 
     getTimeStamp(); //prints time
-    cout << endl;
     std::cout << post_body << endl; //prints body
 }
