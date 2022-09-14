@@ -46,7 +46,6 @@ void display(Post obj)
 {
     cout << obj.getTitle() << " posted at "; //prints title posted at
     obj.getTimeStamp(); //prints current time
-    cout << endl;
     cout << obj.getBody() << endl; //prints body
 }
 void Account::viewPosts()const
